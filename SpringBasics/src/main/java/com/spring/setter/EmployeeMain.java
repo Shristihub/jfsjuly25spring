@@ -9,7 +9,7 @@ public class EmployeeMain {
 
 	public static void main(String[] args) {
 		//create the IoC Container
-		ApplicationContext context = 
+		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext("com.spring.setter");
 		Stream.of(context.getBeanDefinitionNames()).forEach(System.out::println);
 		
@@ -20,6 +20,11 @@ public class EmployeeMain {
 //		System.out.println(employee);
 //		employee =  context.getBean(Employee.class);
 //		System.out.println(employee);
+		
+		context.close();
+		
+		
+		
 		
 		
 		

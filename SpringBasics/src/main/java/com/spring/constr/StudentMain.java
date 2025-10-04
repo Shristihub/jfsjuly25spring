@@ -12,12 +12,16 @@ public class StudentMain {
 		ApplicationContext context = 
 				new AnnotationConfigApplicationContext("com.spring");
 		
-		Stream.of(context.getBeanDefinitionNames()).forEach(System.out::println);
-		Student student =(Student) context.getBean("student");
-		System.out.println(student);
+//		Stream.of(context.getBeanDefinitionNames()).forEach(System.out::println);
+		Student student1 =(Student) context.getBean("student");
+		System.out.println("st1 "+student1.getStudentName());
 		
+		Student student2 =(Student) context.getBean("student");
+		System.out.println("st2 "+student2.getStudentName());
 		
-		
+		student1.setStudentName("Sripriya");
+		System.out.println("st1 "+student1.getStudentName());
+		System.out.println("st2 "+student2.getStudentName());
 		
 	}
 }

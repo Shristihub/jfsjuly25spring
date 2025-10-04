@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
-    <fullyQualifiedTypeName name="com.spring.setter.Employee"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="com.spring.constr.Student"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="com.spring.autowire.Rectangle"/>
+    <fullyQualifiedTypeName name="com.spring.autowire.Triangle"/>
+    <fullyQualifiedTypeName name="com.spring.autowire.Square"/>
+    <fullyQualifiedTypeName name="com.spring.autowire.IShape"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="com.spring.setter.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring.autowire.ShapeFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 </qualifiedTypeNameHistroy>
