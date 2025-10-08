@@ -1,9 +1,0 @@
-package com.basics;
-
-public class Employee {
-	private String empName;
-	private int empId;
-	private double salary;
-	
-
-}

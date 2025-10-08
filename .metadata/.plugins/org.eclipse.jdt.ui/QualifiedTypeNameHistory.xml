@@ -19,4 +19,8 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="com.spring.javabased1.ShapeConfig"/>
+    <fullyQualifiedTypeName name="com.spring.javabased1.ShapeFactory"/>
+    <fullyQualifiedTypeName name="com.spring.javabased1.IShape"/>
+    <fullyQualifiedTypeName name="com.spring.javabased1.Rectangle"/>
 </qualifiedTypeNameHistroy>

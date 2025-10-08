@@ -2,28 +2,28 @@ package com.spring.javabased1;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import com.spring.javabased.Student;
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class ShapeConfig {
 
-	// create bean definition
-	// bean name is the method name
 	@Bean
-	Square getSquare() {
+	@Primary 
+	@Scope("prototype") //new bean will be created
+	Square mysquare() {
 		return new Square();
 	}
 	@Bean
-	Rectangle getRectangle() {
-		return new Rectangle();
-	}
-	@Bean
-	Triangle getTriangle() {
+	Triangle mytriangle() {
 		return new Triangle();
 	}
 	@Bean
-	ShapeFactory getShapeFactory() {
+	Rectangle myrectangle() {
+		return new Rectangle();
+	}
+	@Bean
+	ShapeFactory myShapeFactory() {
 		return new ShapeFactory();
 	}
 }
