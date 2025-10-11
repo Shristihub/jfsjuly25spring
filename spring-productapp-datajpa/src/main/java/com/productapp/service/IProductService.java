@@ -4,20 +4,21 @@ import java.util.List;
 
 import com.productapp.exception.ProductNotFoundException;
 import com.productapp.model.Product;
+import com.productapp.model.ProductDto;
 
 public interface IProductService {
 	//crud operation
-	void addProduct(Product product);
-	void updateProduct(Product product);
-	void deleteProduct(int productId);
-	List<Product> getAll();
-	Product getById(int productId)throws ProductNotFoundException;
+	void addProduct(ProductDto productDto);
+	void updateProduct(ProductDto productDto);
+	void deleteProduct(long productId); 
+	List<ProductDto> getAll();
+	ProductDto getById(long productId)throws ProductNotFoundException;
 	
 	// querying
 	
-	List<Product> getByBrand(String brand) throws ProductNotFoundException;
-	List<Product> getByLesserPrice(double price)throws ProductNotFoundException;
-	List<Product> getByCategoryandNameContains(String category, String name)throws ProductNotFoundException;
+	List<ProductDto> getByBrand(String brand) throws ProductNotFoundException;
+	List<ProductDto> getByLesserPrice(double price)throws ProductNotFoundException;
+	List<ProductDto> getByCategoryandNameContains(String category, String name)throws ProductNotFoundException;
 	
 	
 
