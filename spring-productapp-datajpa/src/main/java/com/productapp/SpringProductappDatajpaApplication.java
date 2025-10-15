@@ -48,23 +48,54 @@ public class SpringProductappDatajpaApplication implements CommandLineRunner{
 		System.out.println();
 //		productService.deleteProduct(5);
 		
+//		System.out.println();
+//		System.out.println("BY brand");
+//		productService.getByBrand("Cosco").stream().forEach(System.out::println);
+//		System.out.println();
+//		
+//		System.out.println("BY lesser price");
+//		productService.getByLesserPrice(3000).stream().forEach(System.out::println);
+//		System.out.println();
+//		
+//		System.out.println("BY cat and name");
+//		productService.getByCategoryandNameContains("Sports","ball").stream().forEach(System.out::println);
+//		System.out.println();
+//		
+//		System.out.println("BY cat ");
+//		productService.getByCategory("Sports").stream().forEach(System.out::println);
+//		System.out.println();
+//		
+//		System.out.println("BY brand and price ");
+//		productService.getByBrandAndLessPrice("Nike", 40000).stream().forEach(System.out::println);
+//		System.out.println();
+//		
+//		
+//		System.out.println("BY name contains ");
+//		productService.getByNameContains("ball").stream().forEach(System.out::println);
+//		System.out.println();
+//		
+//		System.out.println("BY brand category ");
+//		productService.getByBrandAndCat("Cosco","Sports").stream().forEach(System.out::println);
+//		System.out.println();
+				
+//		System.out.println("BY price ");
+//		productService.getByGreaterPrice(1000).stream().forEach(System.out::println);
+//		System.out.println();		
+//		
+//		System.out.println("update product");
+//		productService.updateProduct(1,560);
+		
+//		System.out.println("sorting");
+//		productService.getSortedProducts("brand").stream().forEach(System.out::println);
+//		System.out.println();
+		
+		System.out.println("paging");
+		productService.getPagedProducts(1,4).stream().forEach(System.out::println);
+		
 		System.out.println();
 		System.out.println("BY brand");
-		productService.getByBrand("Cosco").stream().forEach(System.out::println);
+		productService.getByBrand("productName","Cosco").stream().forEach(System.out::println);
 		System.out.println();
-		
-		System.out.println("BY lesser price");
-		productService.getByLesserPrice(3000).stream().forEach(System.out::println);
-		System.out.println();
-		
-		System.out.println("BY cat and name");
-		productService.getByCategoryandNameContains("Sports","ball").stream().forEach(System.out::println);
-		System.out.println();
-		
-		
-		
-		
-		
 		
 	}
 
