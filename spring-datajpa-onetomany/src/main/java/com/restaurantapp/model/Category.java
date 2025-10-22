@@ -1,6 +1,6 @@
 package com.restaurantapp.model;
 
-public enum RestaurantType {
+public enum Category {
 
 	VEG,NONVEG
 }
