@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.doctorapp.model.Hospital;
+import com.doctorapp.model.HospitalDetailsDto;
 import com.doctorapp.model.HospitalDto;
 import com.doctorapp.model.HospitalType;
 import com.doctorapp.model.Speciality;
@@ -58,44 +59,64 @@ public class HospitalServiceImpl implements IHospitalService {
 
 	@Override
 	public List<HospitalDto> getByCity(String city) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findByCity(city);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
 	}
 
 	@Override
 	public List<HospitalDto> getBySpecialityType(String type) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findByHospitalType(type);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
 	}
 
 	@Override
 	public List<HospitalDto> getByDoctorSpeciality(String speciality) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findByDoctorSpeciality(speciality);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
 	}
 
 	@Override
 	public List<HospitalDto> getBySpecialityExp(String speciality, int experience) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findBySpecialityExp(speciality, experience);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
 	}
 
 	@Override
 	public List<HospitalDto> getBySpecialityFees(String speciality, double fees) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findBySpecialityFees(speciality, fees);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
 	}
 
 	@Override
 	public List<HospitalDto> getByDoctorLocation(String location) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findByDoctorLocation(location);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
 	}
 
 	@Override
 	public List<HospitalDto> getByDoctorAvailability(LocalTime availability) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Hospital> hospitals = repository.findByDoctorAvailability(availability);
+		return hospitals.stream()
+					.map(hospital->mapper.map(hospital,HospitalDto.class))
+					.toList();
+	}
+
+	@Override
+	public List<HospitalDetailsDto> getAllHospitals() {
+		List<HospitalDetailsDto> hospitals = repository.findAllHospitals();
+		return hospitals;
 	}
 
 }

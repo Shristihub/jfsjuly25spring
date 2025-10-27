@@ -3,6 +3,7 @@ package com.doctorapp.service;
 import java.time.LocalTime;
 import java.util.List;
 
+import com.doctorapp.model.HospitalDetailsDto;
 import com.doctorapp.model.HospitalDto;
 
 public interface IHospitalService {
@@ -24,7 +25,9 @@ public interface IHospitalService {
 	
 	//custom query - 3 entities
 	List<HospitalDto> getByDoctorLocation(String location);
-	List<HospitalDto> getByDoctorAvailability(LocalTime availability);
+	List<HospitalDto> getByDoctorAvailability( LocalTime availability);
 	
+	//projections
+	List<HospitalDetailsDto> getAllHospitals();
 	
 }

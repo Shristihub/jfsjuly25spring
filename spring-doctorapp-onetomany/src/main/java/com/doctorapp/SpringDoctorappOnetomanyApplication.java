@@ -16,6 +16,7 @@ import com.doctorapp.model.DoctorDto;
 import com.doctorapp.model.HospitalDto;
 import com.doctorapp.model.HospitalType;
 import com.doctorapp.model.Speciality;
+import com.doctorapp.service.IDoctorService;
 import com.doctorapp.service.IHospitalService;
 
 @SpringBootApplication
@@ -26,6 +27,9 @@ public class SpringDoctorappOnetomanyApplication implements CommandLineRunner{
 	}
 	@Autowired
 	private IHospitalService hospitalService;
+	
+	@Autowired
+	private IDoctorService doctorService;
 	@Override
 	public void run(String... args) throws Exception {
 		AddressDto address1 = new AddressDto(null,"Alwarpet","Chennai","TN");
@@ -46,9 +50,37 @@ public class SpringDoctorappOnetomanyApplication implements CommandLineRunner{
 		
 		Set<DoctorDto> doctors = new HashSet<>(Arrays.asList(doctor1,doctor2,doctor3));
 		HospitalDto hospital =  new HospitalDto(null, "Mohans Hospital",HospitalType.dia.getHospitalType(), "Chennai",doctors );
-		hospitalService.addHospital(hospital);
+//		hospitalService.addHospital(hospital);
 		
-		hospitalService.getAll().forEach(System.out::println);
+//		hospitalService.getAll().forEach(System.out::println);
+//		System.out.println();
+//		System.out.println("By Doc speciality");
+//		hospitalService.getByDoctorSpeciality("Neurologist").forEach(System.out::println);
+//		System.out.println();
+//		System.out.println("By Doc location");
+//		hospitalService.getByDoctorLocation("Adyar").forEach(System.out::println);
+//		
+//		System.out.println();
+//		System.out.println("By Doc ava");
+//		hospitalService.getByDoctorAvailability(LocalTime.of(18, 0)).forEach(System.out::println);
+//		
+//		System.out.println();
+//		System.out.println(" Projection all hos");
+//		hospitalService.getAllHospitals().forEach(System.out::println);
+		
+		//doctors
+//		System.out.println();
+//		System.out.println("All Doc");
+//		doctorService.getAllDoctors("Internal Medicine", LocalTime.of(17, 0))
+//		.forEach(System.out::println);
+//		System.out.println();
+//		System.out.println("All Doc by specilaity");
+//		doctorService.getBySpeciality("Internal Medicine").forEach(System.out::println);
+		
+//		System.out.println();
+//		doctorService.getByAvailability("Mohan").forEach(System.out::println);
+		System.out.println();
+		doctorService.getByDocSpeciality("Internal Medicine",6).forEach(System.out::println);
 		
 	}
 
