@@ -26,7 +26,8 @@ public class Employee {
 	private String department;
 	private double salary;
 	//added as a foreign key
-	@OneToOne(cascade = CascadeType.PERSIST)
+	//while saving employee to employee table,address should be saved to address table
+	@OneToOne(cascade = CascadeType.ALL)
 	//to change the column name
 	@JoinColumn(name = "address_id")
 	private Address address;
