@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=spring-doctorapp-onetomany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.doctorapp.service{IHospitalService.java[IHospitalService" modifiers="513" timestamp="1761449974262"/>
-    <typeInfo handle="=spring-datajpa-manytomany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.studentapp.service{ICourseService.java[ICourseService" modifiers="513" timestamp="1761751760521"/>
-    <typeInfo handle="=spring-datajpa-manytomany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.studentapp.service{IStudentService.java[IStudentService" modifiers="513" timestamp="1761750601752"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
