@@ -39,6 +39,8 @@ public class DeliveryMapper {
 	}
 
 	public BrandResponse toBrandResponse(Brand brand) {
+		System.out.println(brand);
+		System.out.println(mapper.map(brand, BrandResponse.class));
 		return mapper.map(brand, BrandResponse.class);
 	}
 

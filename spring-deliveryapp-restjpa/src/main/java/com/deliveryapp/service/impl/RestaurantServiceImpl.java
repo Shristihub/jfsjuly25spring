@@ -3,7 +3,9 @@ package com.deliveryapp.service.impl;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import com.deliveryapp.exception.RestaurantNoFoundException;
 import com.deliveryapp.mapper.DeliveryMapper;
 import com.deliveryapp.model.Restaurant;
 import com.deliveryapp.model.RestaurantRequest;
@@ -29,26 +31,30 @@ public class RestaurantServiceImpl implements IRestaurantService {
 
 	@Override
 	public void updateRestaurant(RestaurantRequest restaurantRequest) {
-		// TODO Auto-generated method stub
-		
+		Restaurant restaurant = mapper.toRestaurantEntity(restaurantRequest);
+		repository.save(restaurant);
 	}
 
 	@Override
 	public void deleteRestaurant(int restaurantId) {
-		// TODO Auto-generated method stub
-		
+		repository.deleteById(restaurantId);
 	}
 
 	@Override
+	@Transactional
 	public List<RestaurantResponse> getAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return repository.findAll()
+				.stream()
+				.map(restaurant->mapper.toRestaurantResponse(restaurant))
+				.toList();
 	}
 
 	@Override
+	@Transactional
 	public RestaurantResponse getById(int restaurantId) {
-	   
-		return null;
+		Restaurant restaurant = repository.findById(restaurantId)
+			.orElseThrow(()-> new RestaurantNoFoundException("invalid id"));
+		return mapper.toRestaurantResponse(restaurant);
 	}
 
 	@Override

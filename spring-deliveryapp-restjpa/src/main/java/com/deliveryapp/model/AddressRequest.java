@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class AddressRequest {
-	
+	private Integer addressId;
 	private String location;
 	private String city;
 	private String state;
