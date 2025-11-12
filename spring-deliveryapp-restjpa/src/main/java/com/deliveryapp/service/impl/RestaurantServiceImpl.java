@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.deliveryapp.exception.RestaurantNoFoundException;
+import com.deliveryapp.exception.RestaurantNotFoundException;
 import com.deliveryapp.mapper.DeliveryMapper;
 import com.deliveryapp.model.Restaurant;
 import com.deliveryapp.model.RestaurantRequest;
@@ -53,14 +53,19 @@ public class RestaurantServiceImpl implements IRestaurantService {
 	@Transactional
 	public RestaurantResponse getById(int restaurantId) {
 		Restaurant restaurant = repository.findById(restaurantId)
-			.orElseThrow(()-> new RestaurantNoFoundException("invalid id"));
+			.orElseThrow(()-> new RestaurantNotFoundException("invalid id"));
 		return mapper.toRestaurantResponse(restaurant);
 	}
 
 	@Override
 	public List<RestaurantResponse> getByCity(String city) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Restaurant> restaurants = repository.findByCity(city);
+		if(restaurants.isEmpty())
+			throw new RestaurantNotFoundException("restaurant for this city not found");
+		return restaurants	
+			.stream()
+			.map(restaurant->mapper.toRestaurantResponse(restaurant))
+			.toList();
 	}
 
 }

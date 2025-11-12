@@ -19,19 +19,30 @@ import com.deliveryapp.model.RestaurantRequest;
 import com.deliveryapp.model.RestaurantResponse;
 import com.deliveryapp.service.IRestaurantService;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/delivery-api/v1")
 @RequiredArgsConstructor
+@Tag(name = "Restaurant Controller", description ="has rest end points of restaurant")
 public class RestaurantController {
 	
+//	To run the swagger ui
+//	http://localhost:8080/swagger-ui/index.html
 	
 	private final IRestaurantService restaurantService;
 	
 //	http://localhost:8080/delivery-api/v1/restaurants
+	
 	@PostMapping("/restaurants")
-	ResponseEntity<Void>  createRestaurant(@RequestBody RestaurantRequest restaurantRequest){
+	ResponseEntity<Void>  createRestaurant(@RequestBody @Valid RestaurantRequest restaurantRequest){
 		restaurantService.addRestaurant(restaurantRequest);
 		HttpHeaders httpHeaders = new HttpHeaders();
 		httpHeaders.add("description", "Creating a new restaurant "+restaurantRequest);
@@ -40,7 +51,7 @@ public class RestaurantController {
 	}
 //	http://localhost:8080/delivery-api/v1/restaurants
 	@PutMapping("/restaurants") 
-	ResponseEntity<Void> updateRestaurant(@RequestBody  RestaurantRequest restaurantRequest){
+	ResponseEntity<Void> updateRestaurant(@RequestBody  @Valid RestaurantRequest restaurantRequest){
 		restaurantService.updateRestaurant(restaurantRequest);
 		return ResponseEntity.status(HttpStatus.ACCEPTED).build();
 	}
@@ -53,6 +64,16 @@ public class RestaurantController {
 	}
 	
 //	http://localhost:8080/delivery-api/v1/restaurants
+	@Operation(operationId = "getAllRestaurants",
+			   summary = "Getting list of restaurants",
+			   description = "This rest end point is used to return a list of restaurants")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200",
+					     description=" returns a list of restaurants",
+					     content = @Content(
+					    		       mediaType = "application/json",
+					    		       schema = @Schema(implementation = RestaurantResponse.class)) )
+	})
 	@GetMapping("/restaurants")
 	ResponseEntity<List<RestaurantResponse>> getAll(){
 		List<RestaurantResponse> restaurants= restaurantService.getAll();

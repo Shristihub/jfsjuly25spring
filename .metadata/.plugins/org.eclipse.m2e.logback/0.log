@@ -4130,3 +4130,198 @@ org.eclipse.core.runtime.CoreException: Launch configuration StudentMain referen
 2025-11-08 10:25:00,069 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-11-08 10:25:00,073 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-11-08 10:25:00,075 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:18:20,602 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:18:20,772 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:18:20,779 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:19:29,486 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:19:29,499 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:19:29,503 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:20:15,993 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:20:16,002 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:20:16,005 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:21:48,751 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:21:48,760 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:21:48,761 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:23:15,483 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:23:15,487 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:23:15,488 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:26:49,775 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:26:49,784 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:26:49,785 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:27:38,469 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:27:38,475 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:27:38,477 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:34:43,633 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:34:43,641 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:34:43,644 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:35:04,452 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:35:04,461 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:35:04,464 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:35:09,488 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:35:09,493 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:35:09,495 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:35:31,237 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:35:31,251 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:35:31,254 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:35:44,335 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:35:44,345 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:35:44,347 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:38:47,675 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:38:47,681 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:38:47,684 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:39:12,441 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:39:12,447 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:39:12,448 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:39:40,560 [Worker-88: Launching spring-deliveryapp-restjpa - SpringDeliveryappRestjpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 08:39:40,571 [Worker-88: Launching spring-deliveryapp-restjpa - SpringDeliveryappRestjpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:39:40,575 [Worker-88: Launching spring-deliveryapp-restjpa - SpringDeliveryappRestjpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 08:59:12,108 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-11-09 08:59:12,122 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 08:59:12,128 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:04:44,356 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:04:44,363 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:04:44,364 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:05:07,966 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:05:07,972 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:05:07,974 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:08:18,307 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:08:18,317 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:08:18,321 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:08:48,255 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:08:48,265 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:08:48,267 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:08:51,307 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:08:51,314 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:08:51,316 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:08:56,488 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:08:56,495 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:08:56,497 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:09:03,524 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:09:03,531 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:09:03,533 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:09:08,567 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:09:08,572 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:09:08,573 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:11:10,657 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:11:10,667 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:11:10,670 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:13:41,501 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:13:41,510 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:13:41,512 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:15:10,158 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:15:10,161 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:15:10,164 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:18:09,765 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:18:09,775 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:18:09,776 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:19:39,089 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:19:39,100 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:19:39,103 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:25:57,272 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:25:57,279 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:25:57,281 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:31:09,492 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:31:09,498 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:31:09,499 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:31:22,658 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:31:22,667 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:31:22,669 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:31:33,374 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:31:33,382 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:31:33,385 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:31:50,980 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:31:50,985 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:31:50,986 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:32:02,204 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:32:02,210 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:32:02,211 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:32:14,675 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:32:14,681 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:32:14,682 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:32:31,619 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:32:31,631 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:32:31,633 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:32:49,396 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:32:49,401 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:32:49,403 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:32:51,984 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:32:51,990 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:32:51,992 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:32:57,389 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:32:57,395 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:32:57,396 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:33:03,877 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:33:03,890 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:33:03,892 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:33:14,844 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:33:14,852 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:33:14,853 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:33:20,660 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:33:20,665 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:33:20,666 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:33:46,909 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:33:46,917 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:33:46,919 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:33:56,930 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:33:56,938 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:33:56,939 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:33:59,256 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:33:59,263 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:33:59,265 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:34:17,269 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:34:17,283 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:34:17,286 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:34:29,662 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:34:29,671 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:34:29,674 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:34:34,634 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:34:34,644 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:34:34,647 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:39:03,125 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:39:03,132 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:39:03,134 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:41:18,998 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:41:19,005 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:41:19,007 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:41:37,959 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:41:37,966 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:41:37,968 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:42:15,961 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:42:15,976 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:42:15,978 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:42:42,078 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:42:42,085 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:42:42,089 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:45:22,126 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:45:22,137 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:45:22,139 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:47:45,430 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:47:45,439 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:47:45,441 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:48:52,367 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:48:52,376 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:48:52,378 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:51:31,397 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:51:31,407 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:51:31,411 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:52:22,405 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:52:22,413 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:52:22,414 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:52:38,433 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:52:38,438 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:52:38,440 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:54:07,127 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:54:07,134 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:54:07,136 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:54:10,542 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:54:10,549 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:54:10,550 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 09:54:39,706 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 09:54:39,711 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 09:54:39,713 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 10:13:31,383 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 10:13:31,393 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 10:13:31,397 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
+2025-11-09 10:29:45,684 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-11-09 10:29:45,695 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-11-09 10:29:45,697 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025\apps\stsexamples\jfsjuly25spring\spring-deliveryapp-restjpa\src\test\resources
