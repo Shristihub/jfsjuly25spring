@@ -4,6 +4,7 @@ import java.util.Set;
 
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -31,10 +32,15 @@ public class RestaurantRequest {
 	@Min(value=1)
 	@Max(value=5,message = "value should be less than or equals 5")
 	private double ratings;
+	@Valid
 	private AddressRequest address;
+	@Valid
 	private Set<MenuItemRequest> menuItems; 
-    private Brand brand;
+	@Valid
+	private Brand brand;
+	@Valid
 	private Set<CuisineRequest> cuisines;
+	@Valid
 	private Set<String> serviceType; //dining,delivery,nightlife
 	
 	

@@ -1,12 +1,15 @@
 package com.deliveryapp.exception;
 
 import java.time.LocalDateTime;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.FieldError;
 import org.springframework.web.HttpMediaTypeNotSupportedException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -16,8 +19,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-import jakarta.validation.ValidationException;
 
 //to handle exceptions across all controllers
 @ControllerAdvice
@@ -92,10 +93,20 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 			HttpHeaders headers, HttpStatusCode status, WebRequest request) {
 		LocalDateTime timestamp = LocalDateTime.now();
 		int statusCode = status.value();
-		String error = "other "+ex.getMessage(); 
-		ApiErrors apiErrors = new ApiErrors(timestamp,statusCode,ex.getMessage(),error);
+		// to get all validation errors
+		Map<String, String> errors = ex.getBindingResult()
+                .getFieldErrors()
+                .stream()
+                .collect(Collectors.toMap(
+                        FieldError::getField,
+                        FieldError::getDefaultMessage, //get the message from the annotations
+                        (oldValue, newValue) -> oldValue
+                ));
+		ApiErrors apiErrors = new ApiErrors(timestamp,statusCode,ex.getMessage(),errors.toString());
 		return ResponseEntity.status(status.value()).body(apiErrors);
 	}
+
+	
 	
 	
 	
