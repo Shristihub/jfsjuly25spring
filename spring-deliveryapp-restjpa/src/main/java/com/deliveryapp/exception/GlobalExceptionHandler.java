@@ -15,22 +15,15 @@ import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
-import org.springframework.web.method.annotation.HandlerMethodValidationException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import jakarta.validation.ValidationException;
 
 //to handle exceptions across all controllers
 @ControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
-//	@Override
-//	protected ResponseEntity<Object> handleHandlerMethodValidationException(HandlerMethodValidationException ex,
-//			HttpHeaders headers, HttpStatusCode status, WebRequest request) {
-//		LocalDateTime timestamp = LocalDateTime.now();
-//		int statusCode = status.value();
-//		String error = "other Exception "+ ex.getMessage(); 
-//		ApiErrors apiErrors = new ApiErrors(timestamp,statusCode,ex.getMessage(),error);
-//		return ResponseEntity.status(status.value()).body(apiErrors);
-//	}
+
 
 	@Override
 	protected ResponseEntity<Object> handleHttpRequestMethodNotSupported(HttpRequestMethodNotSupportedException ex,
@@ -93,14 +86,15 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR.value()).body(apiErrors);
 	}
 	
-	//user-defined exception
-	@ExceptionHandler(value = Exception.class)
-	public ResponseEntity<ApiErrors> handleException(Exception ex){
+	//capture validation errors
+	@Override
+	protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
+			HttpHeaders headers, HttpStatusCode status, WebRequest request) {
 		LocalDateTime timestamp = LocalDateTime.now();
-		int statusCode = HttpStatus.BAD_REQUEST.value();
+		int statusCode = status.value();
 		String error = "other "+ex.getMessage(); 
 		ApiErrors apiErrors = new ApiErrors(timestamp,statusCode,ex.getMessage(),error);
-		return ResponseEntity.status(HttpStatus.BAD_REQUEST.value()).body(apiErrors);
+		return ResponseEntity.status(status.value()).body(apiErrors);
 	}
 	
 	
